@@ -4,9 +4,9 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["app/*"],              // 👉 Quando você importa com "@/algumaCoisa", o TypeScript vai olhar dentro da pasta app
-      "@firebase/*": ["firebase/*"], // 👉 Quando você faz "@firebase/config", o TS vai olhar para "firebase/config"
-      "@services/*": ["services/*"]  // 👉 Quando você faz "@services/api", o TS vai olhar para "services/api"
+      "@/*": ["app/*"],
+      "@firebase/*": ["firebase/*"],
+      "@services/*": ["services/*"]
     }
   },
   "include": [
